@@ -9,10 +9,11 @@ services:
       - "5432"
     environment:
       POSTGRES_DATABASE: movies
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: tom
+      POSTGRES_PASSWORD: tom
   web:
     build: .
+    image: halvong/movies
     command: python manage.py runserver 0.0.0.0:8000
     #command: >
     #  gunicorn -b 0.0.0.0:8000

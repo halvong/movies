@@ -1,11 +1,6 @@
-Django with GraphQL
-11/1/2019, Fri
-
-
-
-
-
+Django with GraphQL, Udemy
+11/21/2019, Thurs
 
 
 #docker steps
-docker-compose exec database psql -U postgres -h database
+docker-compose exec database psql -U tom -h database
